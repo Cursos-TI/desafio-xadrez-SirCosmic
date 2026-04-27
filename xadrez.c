@@ -16,11 +16,17 @@ int main() {
 
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
+    printf("Movimento do Bispo \n");
 
     for (int i = 1; i <= MOVIMENTO_BISPO; i++) {
         // Simulação da movimentação do Bispo
         // Exemplo: O Bispo pode se mover para a direita e para baixo, então você pode usar um loop para incrementar as coordenadas.
-        printf("Movimento do Bispo: direita, baixo %d\n", i);
+        for (int j = 1; j < 2; j++)
+        {
+            printf("Direita\n");
+        }
+        
+        printf("baixo \n");
         
     }
 
@@ -49,6 +55,8 @@ int main() {
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
+
+    printf("Movimento do Cavalo \n");
 
         for(int i = 1; i <= 1; i++)
     {
