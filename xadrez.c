@@ -4,6 +4,20 @@
 // Este código inicial serve como base para o desenvolvimento do sistema de movimentação das peças de xadrez.
 // O objetivo é utilizar estruturas de repetição e funções para determinar os limites de movimentação dentro do jogo.
 
+void movimento_bispo(int movimento) {
+    printf("Movimento do Bispo \n");
+    for (int i = 1; i <= movimento; i++) {
+        for (int j = 1; j < 2; j++)
+        {
+            printf("Direita\n");
+        }
+        
+        printf("baixo \n");
+        
+    }
+}
+
+
 int main() {
     // Nível Novato - Movimentação das Peças
     // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
@@ -16,19 +30,7 @@ int main() {
 
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
-    printf("Movimento do Bispo \n");
-
-    for (int i = 1; i <= MOVIMENTO_BISPO; i++) {
-        // Simulação da movimentação do Bispo
-        // Exemplo: O Bispo pode se mover para a direita e para baixo, então você pode usar um loop para incrementar as coordenadas.
-        for (int j = 1; j < 2; j++)
-        {
-            printf("Direita\n");
-        }
-        
-        printf("baixo \n");
-        
-    }
+    movimento_bispo(MOVIMENTO_BISPO);
 
     printf("\n");
     printf("Movimento da Torre \n");
